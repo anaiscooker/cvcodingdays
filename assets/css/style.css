@@ -1,0 +1,105 @@
+body {
+  background-image: url(file:///Users/Anais/Downloads/pavel-dvorak-160513.jpg);
+  background-size: cover;
+  color:black;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+li:hover {
+  background-color:rgba(0, 0, 0, .05);
+}
+
+a {
+  text-decoration: none;
+}
+
+.carte_de_visite {
+  background: rgba(211, 211, 211, 0.6);
+  /*background-color: #D3D3D3;  cmd shift slash  */
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.carte_de_visite font {
+  color:black;
+}
+
+.article {
+  opacity:1;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url('file:///Users/Anais/Desktop/Capture%20d%E2%80%99e%CC%81cran%202017-06-10%20a%CC%80%2013.45.14.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 50%;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 15px;
+  height: 15px;
+  margin:5px;
+  color:white;
+  background-color:#b3b3b3;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+}
+
+.btn-download {
+	background-color:#e76464;
+	position:fixed;
+	bottom: 42px;
+	right:42px;
+	width:50px;
+	height:50px;
+	font-size:20pt;
+	transition:none;
+}
